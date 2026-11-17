@@ -6,8 +6,7 @@ with synthetic data, not a claim of independent adoption.
 
 The module `sundaysebasidian-byte/moonbean-report` depends on the published
 [`sundaysebasidian-byte/moonbean@0.2.8`](https://mooncakes.io/docs/sundaysebasidian-byte/moonbean)
-through the registry. There are no local-path dependencies and no remote for this
-example. See [MoonBean's compatibility contract](https://github.com/sundaysebasidian-byte/moonbean/blob/v0.2.8/docs/compatibility.md)
+through the registry. There are no local-path dependencies. See [MoonBean's compatibility contract](https://github.com/sundaysebasidian-byte/moonbean/blob/v0.2.8/docs/compatibility.md)
 before using this as a `bean-check` replacement: the engine has explicit compatibility
 gaps, including Python plugins and some options. Warnings are displayed but do not
 fail validation. Unsupported plugins may affect results; this is not full Beancount parity.
@@ -124,6 +123,5 @@ moon publish --dry-run
 On toolchain 0.1.20261104 the final command requires a registry login even for a
 dry run; without credentials it stops at `Registry login is required`. `moon package`
 validates offline archive creation, but does not verify registry publication
-permissions. No login, publish, push or remote creation is needed or performed.
-Internal audit and closeout records are retained in Git but excluded from the
+permissions. Internal audit and closeout records are retained in Git but excluded from the
 registry archive by `.moonignore`; `moon package --list` shows the payload.
