@@ -1,0 +1,11 @@
+/_build/
+/target/
+/.mooncakes/
+/bean-report
+__pycache__/
+
+# Internal verification records stay in Git, outside the registry payload.
+/evidence/
+/audit/
+/closeout-audit/
+/evidence-bundle/

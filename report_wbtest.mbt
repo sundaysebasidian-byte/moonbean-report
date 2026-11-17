@@ -49,3 +49,16 @@ test "empty ledger and invalid year" {
   assert_eq(render_source("empty.beancount", "", year=Some(0)).exit_code, 2)
   assert_eq(render_source("empty.beancount", "", year=Some(10000)).exit_code, 2)
 }
+
+///|
+test "priced conversion includes equity residual and matches golden" {
+  let result = render_source(
+    "sample/conversion.beancount",
+    conversion_source,
+    year=Some(2024),
+  )
+  assert_eq(result.exit_code, 0)
+  assert_eq(result.text, conversion_expected)
+  assert_true(result.text.contains("USD 620.00 0 -620.00"))
+  assert_true(result.text.contains("EUR 895.00 0 -895.00"))
+}

@@ -1,0 +1,33 @@
+Validation: OK (0 errors, 0 warnings)
+
+Balance sheet (all dates; cost basis; signed balances)
+Currency Assets Liabilities Equity
+EUR 895.00 0 -895.00
+USD 620.00 0 -620.00
+
+Monthly income/expenses 2024 (income sign reversed)
+Month Currency Income Expenses
+2024-01 EUR 0 0
+2024-01 USD 0 0
+2024-02 EUR 1000.00 0
+2024-02 USD 10.00 0
+2024-03 EUR 0 0
+2024-03 USD 0 0
+2024-04 EUR 0 5.00
+2024-04 USD 0 0
+2024-05 EUR 0 0
+2024-05 USD 0 0
+2024-06 EUR 0 0
+2024-06 USD 0 0
+2024-07 EUR 0 0
+2024-07 USD 0 0
+2024-08 EUR 0 0
+2024-08 USD 0 0
+2024-09 EUR 0 0
+2024-09 USD 0 0
+2024-10 EUR 0 0
+2024-10 USD 0 0
+2024-11 EUR 0 0
+2024-11 USD 0 0
+2024-12 EUR 0 0
+2024-12 USD 0 0

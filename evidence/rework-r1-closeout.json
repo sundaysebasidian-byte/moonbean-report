@@ -1,0 +1,256 @@
+{
+  "author": "moonbean-report contributors",
+  "scope": ".",
+  "version": "0.1.0",
+  "base_commit": "7445a44872549cf04d0670f1fdf16f1fc1bb74ac",
+  "delivery_revision": "New local HEAD after this audit; inspect git log -1.",
+  "starting_worktree": "Clean; all current modifications belong to this rework.",
+  "remotes": [],
+  "backup_status": "Base source retained in Git. Current source retained in the final local commit and package archive; no GitHub backup is claimed or needed for a deletion because nothing is removed.",
+  "active_resources": {
+    "owned_background_services": [],
+    "owned_browser_tabs": [],
+    "owned_build_test_sessions": [],
+    "note": "All task command sessions completed before closeout. Other host tasks are left untouched."
+  },
+  "candidates": [],
+  "moved": [],
+  "blocked_cleanup": [],
+  "retained": [
+    "Current source and synthetic fixtures",
+    "Base Git commit and new local commit",
+    "All internal evidence and prior closeout records",
+    "_build/ current tests and package artifacts",
+    ".mooncakes/ current registry dependencies",
+    "bean-report existing release executable",
+    "Ignored Python bytecode cache from script inspection"
+  ],
+  "trash_destination": null,
+  "restore_mapping": [],
+  "moved_bytes": 0,
+  "space_released_bytes": 0,
+  "df_audit_start_1k": {
+    "filesystem": "/dev/disk3s5",
+    "used": 328187852,
+    "available": 109286224
+  },
+  "df_audit_end_1k": {
+    "filesystem": "/dev/disk3s5",
+    "used": 328180292,
+    "available": 109293784
+  },
+  "df_note": "Shared host usage can change independently; no cleanup or reclaimed space is claimed.",
+  "source_fingerprints": [
+    {
+      "path": ".gitignore",
+      "bytes": 57,
+      "sha256": "fd7607af6b6b6b538d447e8045d46b8d7645969fbb043c3490154da3831c573d"
+    },
+    {
+      "path": ".moonignore",
+      "bytes": 187,
+      "sha256": "7fcc91caccaa285bc088a1600cd3fa232655c4c6b749e81f418b0e6b95585f67"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 607,
+      "sha256": "cce8dfc904b34d3f929b5e39c9d2162d25de569d316fa729e4ad913a75436179"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6370,
+      "sha256": "e42e624a9f9771dbcd25863c30836bc8d5214f4efa3190d2a590723c618108db"
+    },
+    {
+      "path": "cmd/bean-report/main.mbt",
+      "bytes": 2198,
+      "sha256": "8c6b68a395b5141cf9c49310f1c4c96e6646d669f8fe39e9918a178ed616e99c"
+    },
+    {
+      "path": "cmd/bean-report/moon.pkg",
+      "bytes": 402,
+      "sha256": "119e16999b4ea68b195b2f36bc8222bacccf432ec66a1fccc380347c3a07659d"
+    },
+    {
+      "path": "cmd/bean-report/pkg.generated.mbti",
+      "bytes": 182,
+      "sha256": "441bb618f5cd72ce24f993989500f80880b7dfa3cd200b0dc25b551f41de8572"
+    },
+    {
+      "path": "conversion_golden_wbtest.mbt",
+      "bytes": 885,
+      "sha256": "376b1f97e3176c02f60d8d242d760ebfa26dd0bdb22fa1aa04da98d62dd54925"
+    },
+    {
+      "path": "conversion_wbtest.mbt",
+      "bytes": 816,
+      "sha256": "07626bf099f9efdc344eaa9359396ce98409e29fa1859f7922c8f39f964477b2"
+    },
+    {
+      "path": "error_golden_wbtest.mbt",
+      "bytes": 236,
+      "sha256": "34792f4a6d0008dae5a498e8d796d6eff33741ccd0fed712efb984c896cc829a"
+    },
+    {
+      "path": "error_wbtest.mbt",
+      "bytes": 280,
+      "sha256": "c74710d49276087cfc7d6820b2ad9d211d8d5d6cb541d043428fdbfee596450f"
+    },
+    {
+      "path": "evidence/closeout-manifest.json",
+      "bytes": 6949,
+      "sha256": "dd6f30aca38053651475c5a2d40843fa8a722f00b40ab41e759ef7ae64ca0ab8"
+    },
+    {
+      "path": "evidence/closeout-operations.jsonl",
+      "bytes": 687,
+      "sha256": "0540a798c3da50c9beb11445b3fec13084cf4ebbb9af62db74fe7ef97da1d795"
+    },
+    {
+      "path": "evidence/native-sample-2024.txt",
+      "bytes": 680,
+      "sha256": "db1143516b04d0a304cdc1ea625fb67a23f7c500c6528317583848730c4310ba"
+    },
+    {
+      "path": "evidence/rework-r1-before.txt",
+      "bytes": 382,
+      "sha256": "0ff605351489c721b8260ca7685949ba4f0b585aa6eeec1c5a8dfd9357de0eba"
+    },
+    {
+      "path": "evidence/rework-r1-verification.md",
+      "bytes": 3391,
+      "sha256": "2b966dbc956cda501459cefaedffad8d03100e10b628b9d952c79c976be29ecd"
+    },
+    {
+      "path": "evidence/verification.md",
+      "bytes": 3082,
+      "sha256": "aa76c3af59e301be52d55eb6329831a51efeb159e7f545c0a3bac3b0dae4461d"
+    },
+    {
+      "path": "examples/ci-validation.yml",
+      "bytes": 658,
+      "sha256": "5de1710a22d8d97547acf0da2fc9bebcc45af4e5e0bdd059ab886b963f8248c6"
+    },
+    {
+      "path": "golden/conversion-2024.txt",
+      "bytes": 652,
+      "sha256": "8b498642a2f7470ee0e51d6efb44f989c56055b4f756bd713634b403ce772d8c"
+    },
+    {
+      "path": "golden/error.txt",
+      "bytes": 132,
+      "sha256": "a08b8b8ba9a3e7042166810a6167c32a010575eb6af584d69e1a5e4bf84a490c"
+    },
+    {
+      "path": "golden/sample-2024.txt",
+      "bytes": 680,
+      "sha256": "db1143516b04d0a304cdc1ea625fb67a23f7c500c6528317583848730c4310ba"
+    },
+    {
+      "path": "golden_wbtest.mbt",
+      "bytes": 909,
+      "sha256": "d2a530939d35353ee077f5af8c5bfa09d281494755a59a3fa49eb1fb476b21f7"
+    },
+    {
+      "path": "moon.mod",
+      "bytes": 406,
+      "sha256": "d52cd9fcbf1d323e3d7e76bea00c24e8723a681fe891b94cb234237a865a8f88"
+    },
+    {
+      "path": "moon.pkg",
+      "bytes": 268,
+      "sha256": "e5c49e771df3d0651e5a8a6f2d64a7afcb5ecb660805044e7425ccbf256ac041"
+    },
+    {
+      "path": "pkg.generated.mbti",
+      "bytes": 485,
+      "sha256": "b5fcda72bff11f44af0145047fde131306745973113a4d31adf0e2c5c9723b66"
+    },
+    {
+      "path": "report.mbt",
+      "bytes": 4541,
+      "sha256": "8de8b1cbc6f49549deb06047449bc9385d94fddf2495451e64180ff0223f06d4"
+    },
+    {
+      "path": "report_wbtest.mbt",
+      "bytes": 1864,
+      "sha256": "4a114aac46575e78b21bee4ec0b99197c1334c918e78bc70c38677e1645356b0"
+    },
+    {
+      "path": "sample/conversion.beancount",
+      "bytes": 629,
+      "sha256": "c70a4c56def6b80e727a92fecf4b06e7372b80b6afb3cf9e9730ec5d6bc7d959"
+    },
+    {
+      "path": "sample/error.beancount",
+      "bytes": 166,
+      "sha256": "f7067773c193aa5282cf62ee93c495562098b61834fdaab7e3d0005ff63383d7"
+    },
+    {
+      "path": "sample/ledger.beancount",
+      "bytes": 1320,
+      "sha256": "42636fcb54d3fbb3f67d9cb25368775abe38195f66f277e90aded8ebff7e0954"
+    },
+    {
+      "path": "sample_wbtest.mbt",
+      "bytes": 1603,
+      "sha256": "40b965b429e757f7c6d47409fdff285ec583ab20ab5c6ae6f237477838bb69f1"
+    },
+    {
+      "path": "scripts/check-fixtures.sh",
+      "bytes": 191,
+      "sha256": "7594abdf0febcec3d9ecbbffa8c1d807d6d7a40b5600bb9f97185724428dc708"
+    },
+    {
+      "path": "scripts/cli-smoke.py",
+      "bytes": 1791,
+      "sha256": "fc20e6fc95bfe3fe7073b783956ea07deaf9a186e12d07e3c16c56fc9e0ffb96"
+    },
+    {
+      "path": "scripts/embed-fixtures.sh",
+      "bytes": 699,
+      "sha256": "e5f8207b1c56757d8dcb87b7abb42125c11667fa1416f50700e908e30d7a7b20"
+    },
+    {
+      "path": "scripts/oracle-cross-check.py",
+      "bytes": 6071,
+      "sha256": "6c306beb5ba9f7f4e203cff3fe9f13b8f1095b6b83b7edfd03ed21100ae1e600"
+    },
+    {
+      "path": "tests/fixtures/document.beancount",
+      "bytes": 78,
+      "sha256": "ff4658844212f47e106294895fb921a189fcd9cdb399840fa8c5b80f095fb147"
+    },
+    {
+      "path": "tests/fixtures/include.beancount",
+      "bytes": 34,
+      "sha256": "c96146d9cb99520ab85919d7117e2f76ea1547c067d669cdad43b11185baf089"
+    },
+    {
+      "path": "tests/fixtures/invalid-child.beancount",
+      "bytes": 166,
+      "sha256": "f7067773c193aa5282cf62ee93c495562098b61834fdaab7e3d0005ff63383d7"
+    },
+    {
+      "path": "tests/fixtures/missing-document.beancount",
+      "bytes": 82,
+      "sha256": "d4ca8aeba6449b2cb3e0d5bb41e7283917f5a04f39a88a9ac0a0e8ca370d9c30"
+    },
+    {
+      "path": "tests/fixtures/missing-include.beancount",
+      "bytes": 32,
+      "sha256": "154b191887372e3e2a1f186881a20f9dd38c27bd593eda693087f90a0aed07fc"
+    },
+    {
+      "path": "tests/fixtures/receipt.txt",
+      "bytes": 57,
+      "sha256": "0ff58a06af13401de0c1cfebf0de3256ea05bb46c55dccfd3af18847a64096dc"
+    },
+    {
+      "path": "tests/test_oracle_script.py",
+      "bytes": 5120,
+      "sha256": "313c9654f732fdd054753ac2d3e9e4210f624f20ba92a623f9cfaf22c4600eb8"
+    }
+  ],
+  "fingerprint_scope": "Final staged source before this new manifest and operation log, which are excluded from their own hash inventory."
+}

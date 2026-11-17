@@ -1,0 +1,4 @@
+Original script on conversion fixture: exit 1 (false mismatch)
+FAIL: report differs from bean-query
+balance actual: {'EUR': (Decimal('895.00'), Decimal('0'), Decimal('-895.00')), 'USD': (Decimal('620.00'), Decimal('0'), Decimal('-620.00'))}
+balance oracle: {'USD': (Decimal('620.00'), Decimal('0'), Decimal('-510.00')), 'EUR': (Decimal('895.00'), Decimal('0'), Decimal('-995.00'))}

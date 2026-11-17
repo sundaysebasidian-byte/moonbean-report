@@ -19,6 +19,7 @@ def invoke(arguments, expected_code, text=None):
 
 assert invoke(["sample/ledger.beancount", "--year", "2024"], 0) == (ROOT / "golden/sample-2024.txt").read_text()
 assert invoke(["sample/error.beancount", "--year", "2024"], 1) == (ROOT / "golden/error.txt").read_text()
+assert invoke(["sample/conversion.beancount", "--year", "2024"], 0) == (ROOT / "golden/conversion-2024.txt").read_text()
 invoke([], 2, "usage:")
 invoke(["sample/ledger.beancount", "--year", "0000"], 2, "year must be")
 invoke(["sample/ledger.beancount", "--year", "20x4"], 2, "usage:")
@@ -29,4 +30,4 @@ invoke(["tests/fixtures/include.beancount"], 1, "tests/fixtures/invalid-child.be
 invoke(["tests/fixtures/missing-include.beancount"], 1, "include.missing")
 invoke(["tests/fixtures/document.beancount"], 0, "0 warnings")
 invoke(["tests/fixtures/missing-document.beancount"], 1, "validation.document_missing")
-print("PASS: 12 native CLI checks (goldens, exit codes, arguments, includes, documents)")
+print("PASS: 13 native CLI checks (goldens, exit codes, arguments, includes, documents)")
