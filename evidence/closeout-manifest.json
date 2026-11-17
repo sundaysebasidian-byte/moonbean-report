@@ -1,0 +1,208 @@
+{
+  "author": "moonbean-report contributors",
+  "scope": ".",
+  "version": "0.1.0",
+  "revision": "Final local HEAD; inspect git log -1. No prior worktree or old source copy existed here.",
+  "dependency": "Registry sundaysebasidian-byte/moonbean@0.2.8; cached package resolved by moon add and moon tree.",
+  "policy": "No disposal candidates qualify: all retained items are current source, inputs, evidence, deliverables or their current build/dependency state. No unknown or shared resource is moved.",
+  "git": {
+    "new_standalone_repository": true,
+    "remote_count": 0,
+    "backup_requirement": "No old copy or source is removed; no remote backup is claimed. Current source will be committed locally and retained in the package archive."
+  },
+  "active_resources": {
+    "owned_background_services": [],
+    "owned_browser_tabs": [],
+    "owned_running_build_or_test_sessions": [],
+    "other_task_processes": "May be active on the shared host; not stopped or modified."
+  },
+  "candidates": [],
+  "moved": [],
+  "blocked_cleanup": [],
+  "retained": [
+    ".git/",
+    "authored sources and fixtures",
+    "evidence/",
+    "bean-report",
+    "_build/ (current native/four-backend verification and package artifacts)",
+    ".mooncakes/ (current registry dependencies; no shared toolchain changes)"
+  ],
+  "trash_destination": null,
+  "restore_mapping": [],
+  "moved_bytes": 0,
+  "space_released_bytes": 0,
+  "df_before_1k": {
+    "filesystem": "/dev/disk3s5",
+    "used": 323021432,
+    "available": 118647128
+  },
+  "df_after_1k": {
+    "filesystem": "/dev/disk3s5",
+    "used": 325094996,
+    "available": 115524968
+  },
+  "df_note": "Whole-filesystem values can change because other tasks share the host. No space-reclamation claim is made.",
+  "fingerprints": [
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "d1d42e2aac4b2bd541f1b7b255c5b685506df42b68fd0e5541c6b6a42881f487"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 607,
+      "sha256": "cce8dfc904b34d3f929b5e39c9d2162d25de569d316fa729e4ad913a75436179"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5630,
+      "sha256": "21204623c2a9fb04ce6f531ad4bd10011d2a25005b44deaeb98fbe94deec2975"
+    },
+    {
+      "path": "cmd/bean-report/main.mbt",
+      "bytes": 2198,
+      "sha256": "8c6b68a395b5141cf9c49310f1c4c96e6646d669f8fe39e9918a178ed616e99c"
+    },
+    {
+      "path": "cmd/bean-report/moon.pkg",
+      "bytes": 402,
+      "sha256": "119e16999b4ea68b195b2f36bc8222bacccf432ec66a1fccc380347c3a07659d"
+    },
+    {
+      "path": "cmd/bean-report/pkg.generated.mbti",
+      "bytes": 182,
+      "sha256": "441bb618f5cd72ce24f993989500f80880b7dfa3cd200b0dc25b551f41de8572"
+    },
+    {
+      "path": "error_golden_wbtest.mbt",
+      "bytes": 236,
+      "sha256": "34792f4a6d0008dae5a498e8d796d6eff33741ccd0fed712efb984c896cc829a"
+    },
+    {
+      "path": "error_wbtest.mbt",
+      "bytes": 280,
+      "sha256": "c74710d49276087cfc7d6820b2ad9d211d8d5d6cb541d043428fdbfee596450f"
+    },
+    {
+      "path": "evidence/native-sample-2024.txt",
+      "bytes": 680,
+      "sha256": "db1143516b04d0a304cdc1ea625fb67a23f7c500c6528317583848730c4310ba"
+    },
+    {
+      "path": "evidence/verification.md",
+      "bytes": 3082,
+      "sha256": "aa76c3af59e301be52d55eb6329831a51efeb159e7f545c0a3bac3b0dae4461d"
+    },
+    {
+      "path": "examples/ci-validation.yml",
+      "bytes": 732,
+      "sha256": "e41704326aec3f861626a735bad884f94fcebf2b0fc64aba100ec0f7b9584350"
+    },
+    {
+      "path": "golden/error.txt",
+      "bytes": 132,
+      "sha256": "a08b8b8ba9a3e7042166810a6167c32a010575eb6af584d69e1a5e4bf84a490c"
+    },
+    {
+      "path": "golden/sample-2024.txt",
+      "bytes": 680,
+      "sha256": "db1143516b04d0a304cdc1ea625fb67a23f7c500c6528317583848730c4310ba"
+    },
+    {
+      "path": "golden_wbtest.mbt",
+      "bytes": 909,
+      "sha256": "d2a530939d35353ee077f5af8c5bfa09d281494755a59a3fa49eb1fb476b21f7"
+    },
+    {
+      "path": "moon.mod",
+      "bytes": 406,
+      "sha256": "d52cd9fcbf1d323e3d7e76bea00c24e8723a681fe891b94cb234237a865a8f88"
+    },
+    {
+      "path": "moon.pkg",
+      "bytes": 268,
+      "sha256": "e5c49e771df3d0651e5a8a6f2d64a7afcb5ecb660805044e7425ccbf256ac041"
+    },
+    {
+      "path": "pkg.generated.mbti",
+      "bytes": 485,
+      "sha256": "b5fcda72bff11f44af0145047fde131306745973113a4d31adf0e2c5c9723b66"
+    },
+    {
+      "path": "report.mbt",
+      "bytes": 4541,
+      "sha256": "8de8b1cbc6f49549deb06047449bc9385d94fddf2495451e64180ff0223f06d4"
+    },
+    {
+      "path": "report_wbtest.mbt",
+      "bytes": 1473,
+      "sha256": "5fe193c0853b59cef877bb2ea1a4703b168b2b40536d4ac33cb8d39b544eaf6b"
+    },
+    {
+      "path": "sample/error.beancount",
+      "bytes": 166,
+      "sha256": "f7067773c193aa5282cf62ee93c495562098b61834fdaab7e3d0005ff63383d7"
+    },
+    {
+      "path": "sample/ledger.beancount",
+      "bytes": 1320,
+      "sha256": "42636fcb54d3fbb3f67d9cb25368775abe38195f66f277e90aded8ebff7e0954"
+    },
+    {
+      "path": "sample_wbtest.mbt",
+      "bytes": 1603,
+      "sha256": "40b965b429e757f7c6d47409fdff285ec583ab20ab5c6ae6f237477838bb69f1"
+    },
+    {
+      "path": "scripts/check-fixtures.sh",
+      "bytes": 191,
+      "sha256": "7594abdf0febcec3d9ecbbffa8c1d807d6d7a40b5600bb9f97185724428dc708"
+    },
+    {
+      "path": "scripts/cli-smoke.py",
+      "bytes": 1670,
+      "sha256": "cd9724062c08958abb1dd3ec4cce67ada862e171930b5c3f1c4ecac2f2f7a4d0"
+    },
+    {
+      "path": "scripts/embed-fixtures.sh",
+      "bytes": 461,
+      "sha256": "6d5e4329b0924ccd48c382a9958725b1afd0435cbafb2a83fe20e314430155f2"
+    },
+    {
+      "path": "scripts/oracle-cross-check.py",
+      "bytes": 4451,
+      "sha256": "fffe87446e8d8bf5e8ca317993c913ecf099801f4e59bd76ebcb9ed74870c5c7"
+    },
+    {
+      "path": "tests/fixtures/document.beancount",
+      "bytes": 78,
+      "sha256": "ff4658844212f47e106294895fb921a189fcd9cdb399840fa8c5b80f095fb147"
+    },
+    {
+      "path": "tests/fixtures/include.beancount",
+      "bytes": 34,
+      "sha256": "c96146d9cb99520ab85919d7117e2f76ea1547c067d669cdad43b11185baf089"
+    },
+    {
+      "path": "tests/fixtures/invalid-child.beancount",
+      "bytes": 166,
+      "sha256": "f7067773c193aa5282cf62ee93c495562098b61834fdaab7e3d0005ff63383d7"
+    },
+    {
+      "path": "tests/fixtures/missing-document.beancount",
+      "bytes": 82,
+      "sha256": "d4ca8aeba6449b2cb3e0d5bb41e7283917f5a04f39a88a9ac0a0e8ca370d9c30"
+    },
+    {
+      "path": "tests/fixtures/missing-include.beancount",
+      "bytes": 32,
+      "sha256": "154b191887372e3e2a1f186881a20f9dd38c27bd593eda693087f90a0aed07fc"
+    },
+    {
+      "path": "tests/fixtures/receipt.txt",
+      "bytes": 57,
+      "sha256": "0ff58a06af13401de0c1cfebf0de3256ea05bb46c55dccfd3af18847a64096dc"
+    }
+  ],
+  "fingerprint_scope": "All source files staged before this closeout manifest and operation log; these audit files are excluded to avoid a self-referential hash."
+}

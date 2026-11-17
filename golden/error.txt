@@ -1,0 +1,2 @@
+Validation: FAILED (1 errors, 0 warnings)
+sample/error.beancount:3: validation.unbalanced: Transaction does not balance: (1.00 USD)

@@ -1,0 +1,18 @@
+# Example only: outside .github/workflows, so this file is not activated.
+name: Example ledger validation
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Provision the pinned MoonBit toolchain before this step, for example in
+      # a prebuilt runner image. Expected: moon 0.1.20261104.
+      - name: Validate ledger using the MoonBean library
+        shell: bash
+        run: |
+          export MOON_HOME=/tmp/moon-new
+          export PATH="$MOON_HOME/bin:$PATH"
+          moon version
+          moon run cmd/bean-report --target native -- sample/ledger.beancount --year 2024
+          # The process exits 1 on ledger/booking/include errors, failing CI.

@@ -1,0 +1,25 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "sundaysebasidian-byte/moonbean-report"
+
+import {
+  "sundaysebasidian-byte/moonbean/validation",
+}
+
+// Values
+pub fn monthly_query(Int32) -> String
+
+pub fn render_ledger(@validation.ValidatedLedger, year? : Int32?) -> ReportResult
+
+pub fn render_source(String, String, year? : Int32?) -> ReportResult
+
+// Errors
+
+// Types and methods
+pub(all) struct ReportResult {
+  text : String
+  exit_code : Int32
+}
+
+// Type aliases
+
+// Traits
